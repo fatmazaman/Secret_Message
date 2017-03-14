@@ -1,0 +1,39 @@
+What steps would you take to rename a bunch of files on your computer?
+**********************************************************************
+Step1:Get file names from folder
+
+Step2:For each file --> Rename file name 
+
+**********************************************************************  
+Step1:
+
+Find file names in a folder in python
+
+    --->import os
+        os.listdir(r"folder path")  
+
+**********************************************************************  
+Step2:
+ 
+How to rename the files in python
+
+    --->import os
+        os.rename(source, distination) 
+
+        * file_name = "48fatma.jpg"
+        * print(file_name)
+        * 48fatma.jpg
+        * file_name.translate(None,"0123456789")
+        * 'fatma.jpg'
+
+    
+        os.rename(file_name, file_name.translate(None,"0123456789") )
+
+
+for loop for each file in folder
+    
+    --->for file_name in file_list:
+        os.rename(source, distination) 
+
+
+***************************THE END ***********************************          
